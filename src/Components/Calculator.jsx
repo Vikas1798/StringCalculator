@@ -90,8 +90,8 @@ const Calculator = () => {
     const { inputData, result } = state;
     return (
         <section className='w-full lg:w-[80%] px-[10px] xl:px-5 py-10 mx-auto animate-fade  h-screen '>
-            <div className='bg-gray-50 p-5 h-full rounded-xl'>
-                <h1 className='flex items-center justify-center text-6xl font-black bg-gradient-to-r from-[#38bdf8] via-slate-300 to-[#38bdf8] bg-clip-text text-transparent'>String Calculator</h1>
+            <div className='bg-gray-50 p-5 h-full rounded-xl flex items-center justify-center flex-col'>
+                <h1 className='flex items-center justify-center text-6xl font-black bg-gradient-to-r from-[#38bdf8] via-slate-300 to-[#38bdf8] bg-clip-text text-transparent pb-5'>String Calculator</h1>
                 <div className='h-[1px]  bg-gray2 bg-gray-300 w-full lg:w-[40%] mx-auto'></div>
                 <div className='flex flex-col rounded-lg mt-5 w-full lg:w-[40%] mx-auto p-5 '>
                     <input
